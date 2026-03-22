@@ -149,7 +149,41 @@ int main()           // the main function is the entry point of a C program, it 
         break; /*the break statement is used to exit the switch statement after a case is executed,
                 if you forget to use it the program will continue to execute the next cases until
                 it finds a break statement or reaches the end of the switch statement*/
+    case 2:
+        printf("Tuesday");
+        break;
+    case 3:
+        printf("Wednesday");
+        break;
+    case 4:
+        printf("Thursday");
+        break;
+    case 5:
+        printf("Friday");
+        break;
+    case 6:
+        printf("Saturday");
+        break;
+    case 7:
+        printf("Sunday");
+        break;
+    default: /*the default case is executed when none of the other cases match the value of the variable or expression,
+                it is optional but it is a good practice to include it to handle unexpected values*/
+        printf("Invalid day number");
     }
+    //=========================================================================================================================================================================================
+
+    // Nested if statements in C:
+
+                            /*A nested if statement in C is an
+                            if statement inside another if statement*/
+
+    char status []  = "/0"; 
+    double income = 50000;
+    if (status == "single"){
+        printf("You are single");
+    }
+
 
     return 0;
 }
