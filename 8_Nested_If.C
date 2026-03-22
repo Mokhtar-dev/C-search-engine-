@@ -43,7 +43,7 @@ int main()
         }
     }
 
-    //Who needs pepole when u are a programmer TRUST Ur Machine and other programmers !.
+    //Who needs pepole when u are a programmer TRUST Ur Machine and other programmers !♥.
 
 
     return 0;
