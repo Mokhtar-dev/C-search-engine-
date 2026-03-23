@@ -15,7 +15,7 @@ int main() {
     printf("Enter your income:\n");
     scanf("%lf$", &income);
 
-    if (Married_Or_Single) {
+    if (Married_Or_Single == false) {
         printf("Why bro ?! Get married !!\n");
         printf("Your income is: %.2lf$\n", income);
         if (income > 30000) {
