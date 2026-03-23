@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main()
-{
+int main() {
     int num1, num2, num3;
 
     printf("Enter the first number:\n");
@@ -14,6 +13,6 @@ int main()
 
     int sum = num1 + num2 + num3;
     printf("The sum of the three numbers is: %d\n", sum);
-    
+
     return 0;
 }

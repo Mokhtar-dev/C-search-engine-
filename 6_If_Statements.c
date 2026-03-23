@@ -1,8 +1,6 @@
 #include <stdio.h>
-int main()
-{
-
- // IF statement in C:
+int main() {
+    // IF statement in C:
 
     /*so what is an if statement IF is a conditional statement
      which means if this thing is TRUE do some code and
@@ -14,16 +12,11 @@ int main()
     and the rest of the conditions will be ignored, but if the first condition is false the program will check the second condition and so on
     until it finds a true condition or reaches the end of the if statement*/
 
-    if (age_1 >= 18)
-    {
+    if (age_1 >= 18) {
         printf("You are an adult");
-    }
-    else if (age_1 < 0)
-    {
+    } else if (age_1 < 0) {
         printf("You are not born yet What the hell are u doing here");
-    }
-    else
-    {
+    } else {
         printf("You are a minor");
     }
     //=========================================================================================================================================================================================
