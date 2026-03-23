@@ -167,7 +167,7 @@ int main()            // the main function is the entry point of a C program, it
     }
     //=========================================================================================================================================================================================
 
-     // Nested if statements in C:
+    // Nested if statements in C:
 
     /*A nested if statement in C is an
     if statement inside another if statement*/
@@ -199,8 +199,6 @@ int main()            // the main function is the entry point of a C program, it
     }
 
     // Who needs pepole when u are a programmer I TRUST the Machine and other programmers !♥.
-
-
 
     return 0;
 }
