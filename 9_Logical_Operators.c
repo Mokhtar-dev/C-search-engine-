@@ -1,3 +1,4 @@
+#include <stdbool.h>  // this header file is used to include the boolean data type in C, it defines the bool type and the true and false constants
 #include <stdio.h>
 int main() {
     // logical operators in C:
@@ -15,14 +16,20 @@ int main() {
     int tempratuer = 30;
     if (tempratuer > 25 && tempratuer < 35) {
         printf("The weather is hot\n");
-    }
-    else if (tempratuer >= 15 && tempratuer <= 25) {
+    } else if (tempratuer >= 15 && tempratuer <= 25) {
         printf("The weather is warm\n");
-    }
-    else {
+    } else {
         printf("The weather is cold\n");
     }
 
+    // another example:
+    bool sunny = true;
+
+    if (!sunny) { //if not sunny
+        printf("It is raining\n");
+    } else {
+        printf("It is sunny\n");
+    }
 
     return 0;
 }
